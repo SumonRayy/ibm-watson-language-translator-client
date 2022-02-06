@@ -1,11 +1,13 @@
 import './App.css';
+import Translator from './components/Translator';
 
 function App() {
   return (
     <div className="App">
       <h1>
-        App is working!
+        Language Translator
       </h1>
+      <Translator />
     </div>
   );
 }
